@@ -12,3 +12,6 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+
+# Modify flash size
+#sed -i 's/4Mlzma/16Mlzma/g' target/linux/ar71xx/image/tiny-TP-
